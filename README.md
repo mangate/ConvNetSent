@@ -3,12 +3,6 @@ This is a full (slightly modified and extended) TensorFlow implementation of the
 
 With this code you can reproduce almost all results presented by Kim and the results we present in our [Word Embeddings and Their Use In Sentence Classification Tasks](https://arxiv.org/abs/1610.08229) paper.
 
-## Features:
-- Supports Random, Static, and non-Static modes.
-- Runs on (almost) all datasets from the original article + 2 from [here](https://arxiv.org/abs/1510.03820) + 2 new ones. 
-- Optimizer changed to ADAM, improving training time and some of the results.
-- Support for L2 loss added.
-
 ## Credits
 If you're using this code please make sure you cite both following papers:
 - Kim's paper:
@@ -31,8 +25,14 @@ If you're using this code please make sure you cite both following papers:
 ```
 Also, small parts of the code were taken from:
 - [Yoon Kim's git repository](https://github.com/yoonkim/CNN_sentence)
-- [Denny Britz's git repository](https://github.com/dennybritz/cnn-text-classification-tf)
+- [Denny Britz's git repository](https://github.com/dennybritz/cnn-text-classification-tf)  
 We'd like to thank them for that.
+
+## Features:
+- Supports Random, Static, and non-Static modes.
+- Runs on (almost) all datasets from the original article + 2 from [here](https://arxiv.org/abs/1510.03820) + 2 new ones. 
+- Optimizer changed to ADAM, improving training time and some of the results.
+- Support for L2 loss added.
 
 ## Requirements
 - Python (2.7)
