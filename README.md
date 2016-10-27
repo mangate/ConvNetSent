@@ -42,8 +42,12 @@ We'd like to thank them for that.
 
 ## Usage
 ### Preperation:
-1) Clone the repository recursively to get all folder and subfolders
-2) Download Google's word embeddings binary file from [https://code.google.com/p/word2vec/](https://code.google.com/archive/p/word2vec/) 
+1) Clone the repository recursively to get all folder and subfolders  
+2) Download Google's word embeddings binary file from [https://code.google.com/p/word2vec/](https://code.google.com/archive/p/word2vec/)   
 ### Running:
-1) Choose the dataset you want to run on by uncommenting it in the last section of `sentence_convnet_final.py`
-2) Run `python sentence_convnet_final.py --static <True/False> --random <True/False>`
+1) Choose the dataset you want to run on by uncommenting it in the last section of `sentence_convnet_final.py`  
+2) Run `python sentence_convnet_final.py --static <True/False> --random <True/False>`  
+To get the following modes use these flags:
+- Random: `--static False --Random True`
+- Static: `--static True --Random False`
+- Non-Static: `--static False --Random False`
