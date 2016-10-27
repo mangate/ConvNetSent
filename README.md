@@ -1,5 +1,7 @@
 # Convolutional Neural Network for Sentence Classification, in TensorFlow
-This is a full (slightly modified and extended) TensorFlow implementation of the model presented by Kim in [Convolutional Neural Networks for Sentence Classification](http://www.aclweb.org/anthology/D14-1181). With this code can reproduce all results we present in [Word Embeddings and Their Use In Sentence Classification Tasks](https://arxiv.org/abs/1610.08229)
+This is a full (slightly modified and extended) TensorFlow implementation of the model presented by Kim in [Convolutional Neural Networks for Sentence Classification](http://www.aclweb.org/anthology/D14-1181). 
+
+With this code you can reproduce almost all results presented by Kim and the results we present in our [Word Embeddings and Their Use In Sentence Classification Tasks](https://arxiv.org/abs/1610.08229) paper.
 
 ## Features:
 - Supports Random, Static, and non-Static modes
