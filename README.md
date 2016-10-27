@@ -28,7 +28,7 @@ Also, small parts of the code were taken from:
 - [Denny Britz's git repository](https://github.com/dennybritz/cnn-text-classification-tf)  
 We'd like to thank them for that.
 
-## Features:
+## Features
 - Supports Random, Static, and non-Static modes.
 - Runs on (almost) all datasets from the original article + 2 from [here](https://arxiv.org/abs/1510.03820) + 2 new ones. 
 - Optimizer changed to ADAM, improving training time and some of the results.
