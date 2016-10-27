@@ -4,10 +4,10 @@ This is a full (slightly modified and extended) TensorFlow implementation of the
 With this code you can reproduce almost all results presented by Kim and the results we present in our [Word Embeddings and Their Use In Sentence Classification Tasks](https://arxiv.org/abs/1610.08229) paper.
 
 ## Features:
-- Supports Random, Static, and non-Static modes
+- Supports Random, Static, and non-Static modes.
 - Runs on (almost) all datasets from the original article + 2 srom [here](https://arxiv.org/abs/1510.03820) + 2 new ones. 
-- Optimizer changed to ADAM, improving training time and some of the results
-- Support for L2 loss added
+- Optimizer changed to ADAM, improving training time and some of the results.
+- Support for L2 loss added.
 
 ## Credits
 If you're using this code please make sure you cite both following papers:
@@ -41,3 +41,9 @@ We'd like to thank them for that.
 - Pandas
 
 ## Usage
+### Preperation:
+1) Clone the repository recursively to get all folder and subfolders
+2) Download Google's word embeddings binary file from [https://code.google.com/p/word2vec/](https://code.google.com/archive/p/word2vec/) 
+### Running:
+1) Choose the dataset you want to run on by uncommenting it in the last section of `sentence_convnet_final.py`
+2) Run `python sentence_convnet_final.py --static <True/False> --random <True/False>`
