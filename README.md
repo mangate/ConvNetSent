@@ -5,7 +5,7 @@ With this code you can reproduce almost all results presented by Kim and the res
 
 ## Features:
 - Supports Random, Static, and non-Static modes.
-- Runs on (almost) all datasets from the original article + 2 srom [here](https://arxiv.org/abs/1510.03820) + 2 new ones. 
+- Runs on (almost) all datasets from the original article + 2 from [here](https://arxiv.org/abs/1510.03820) + 2 new ones. 
 - Optimizer changed to ADAM, improving training time and some of the results.
 - Support for L2 loss added.
 
