@@ -47,7 +47,8 @@ We'd like to thank them for that.
 ### Running:
 1) Choose the dataset you want to run on by uncommenting it in the last section of `sentence_convnet_final.py`  
 2) Run `python sentence_convnet_final.py --static <True/False> --random <True/False>`  
-To get the following modes use these flags:
+
+Below is a list of modes and appropriate flags:
 - Random: `--static False --Random True`
 - Static: `--static True --Random False`
 - Non-Static: `--static False --Random False`
